@@ -7,7 +7,6 @@ export default function Item({e,deleteElement,doneElement}) {
                     style={{width:"50px",height:"50px",marginRight:"30px"}} onClick={() => doneElement(e.id)}>
  
                     </img>
-                    
                     {
                         e.isDone ?
                         (
